@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+string a, b, c;
+int voters, counter1 = 0, counter2 = 0, counter3 = 0;
+void winner() {
+  cout << "adham"
+       << " " << counter1 << endl;
+  cout << "bilal"
+       << " " << counter2 << endl;
+  cout << "catherine"
+       << " " << counter3 << endl;
+  if (counter1 > counter2 and counter1 > counter3) {
+    cout << "Adham is the winner" << endl;
+  } else if (counter2 > counter1 and counter2 > counter3) {
+    cout << "Bilal is the winner" << endl;
+  } else if (counter3 > counter1 and counter3 > counter2) {
+    cout << "catherine is the winner" << endl;
+  }
+}

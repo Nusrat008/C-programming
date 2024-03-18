@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1639117726 source:c:\users\user\desktop\practise-programming\fudamental c-code\code_1\lab_report_1\main.c
+	<stdio.h>
+	<stdlib.h>
+
